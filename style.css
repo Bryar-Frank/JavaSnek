@@ -1,0 +1,44 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  /* display: flex; */
+  /* centers canvas */
+  justify-content: center;
+  align-items: center;
+}
+
+.screen {
+  display: block;
+  align-self: center;
+  position: relative;
+}
+
+/* This CSS comes from free templates: https://copy-paste-css.com/ */
+button {
+  cursor: pointer;
+  outline: 10;
+  color: #fff;
+  background-color: #0b5ed7;
+  border-color: #c00782;
+  display: inline-block;
+  font-weight: 400;
+  height: 10vmin;
+  width: 28vmin;
+  text-align: center;
+  border: .5vmin solid transparent;
+  font-size: 3vmin;
+  border-radius: .35rem;
+  transition: color .3s ease-in-out, background-color .3s ease-in-out,border-color .3s ease-in-out,box-shadow .3s ease-in-out;
+    
+}
+
+button:hover {
+  color: #fff;
+  background-color: #ea0d8a;
+  border-color: #0a58ca;
+}
+
